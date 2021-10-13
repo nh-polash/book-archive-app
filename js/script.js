@@ -15,7 +15,7 @@ const loadBooks = () => {
         errorMessage.style.fontWeight = '600';
         // clear books results
         document.getElementById('books-area').textContent = '';
-        document.getElementById('books-found').innerText = '00';
+        document.getElementById('books-found').innerText = '0';
 
     }
     else {
