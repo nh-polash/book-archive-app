@@ -54,7 +54,7 @@ const displayBooks = data => {
         books.forEach(book => {
             console.log(book);
             const div = document.createElement('div');
-            div.classList.add('col-md-8');
+            div.classList.add('col-md-4');
             div.innerHTML = `
                 <div class="card mb-3">
                     <div class="row g-0">
